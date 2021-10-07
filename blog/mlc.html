@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML & Coding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+    body{
+        background-color:#8369f7; ;
+    }
+     .img{
+      width:40%;
+      float:right;
+      padding:15px
+     }
+     a{
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        font-weight:bold;
+        font-family: 'Merriweather', sans-serif;
+        line-height:40px;
+        
+     }
+     .date{
+         padding:3px
+     }
+     p{
+        padding-top:10px;
+         padding-bottom: 10px;
+         font-size:15px;
+         line-height: 30px;
+         color:rgb(247, 247, 81);
+         font-family:'Merriweather', sans-serif; 
+     }
+     .article{
+         padding:15px;
+         padding-top:20px;
+         padding-left:20px;
+         margin-bottom: 60px;
+         margin-top: 70px;
+         margin-left:300px;
+         margin-right:300px;
+         background-color:#4931b3;
+         border-radius: 4px;
+     }
+     .nav-link{
+        padding-right:40px;
+        padding-left: 50px;
+        font-size:18px;
+        font-family: 'Source Sans Pro'; 
+    }
+    .nav-item{
+        padding-right:40px;
+        padding-left: 50px;
+    }
+    .navbar-nav{
+        margin-left:auto;
+        padding:10px;
+        margin-bottom: 0px;
+    }
+    .d-inline-block align-text-top{
+    width:100%
+    }
+    .navbar-brand{
+        padding-left: 90px;
+        font-family: 'Source Sans Pro'; 
+    }
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#4831af  ;
+   color: white;
+   text-align: center;
+    }
+    #insta{
+        float:none;
+        
+    }
+    a:hover{
+      color:yellow
+    }
+    .link{
+      padding-right:40px;
+     }
+     .dev{
+      padding:40px;font-family:'Source Sans Pro'
+     }
+    @media (max-width: 480px) {
+         .img{
+             width:100%;
+             padding-bottom:10px;
+             float: none;
+             padding-right:50px;
+         }
+         a{
+            margin-top: 50px;
+            text-decoration: none;
+            font-size: 12px;
+            color:white;
+            font-weight:bold;
+            font-family: 'Merriweather', sans-serif;
+            line-height:40px;
+         }
+         .article{
+         padding:15px;
+         padding-top:10px;
+         padding-left:20px;
+         margin-bottom: 60px;
+         margin-top: 70px;
+         margin-left:10px;
+         margin-right:10px;
+         background-color:#4931b3;
+         border-radius: 4px;
+     }
+     p{
+         font-size: 12px;
+     }
+     .navbar-brand{
+      padding:5px;
+       padding-left: 5px;
+     }
+     .link{
+       padding-left: 5px;
+     }
+     .dev{
+       margin-left:0;
+       padding:0
+     }
+     .d-inline-block align-text-top{
+    width:100%
+    }
+     }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Logo.jpeg" alt="" width="100" height="100px" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="elect.html">Electronics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:yellow" href="mlc.html">Ml & Coding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="misc.html">Miscellaneous</a>
+              </li>
+              
+            </ul>
+        </div>
+    </div>
+  </nav>
+    
+    <div>
+    <div class="article" style="margin-top: 5px;">
+    <img class="img" src ="https://venturebeat.com/wp-content/uploads/2019/04/google-cloud-2-e1576177709339.jpg?w=1200&strip=all">
+    <a href="">Google launches Cloud AI Platform Pipelines in beta to simplify machine learning development.</a>
+    <p><i>This article explains the beta release of Google’s Cloud AI Platform to aid in machine learning development. The company has described their platform as a simple and easy-to-install environment for machine learning workflows.</p>
+    <p class="date">March 11, 2020 by Infineon Technologies</i></p>
+    </div>
+   <div class="article">
+    
+    <img class="img" style="width: 28%;" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PwRQttmK18ZBYWADrccj8tjjsnIWtDFvqQ&usqp=CAU">
+   <a href="https://www.swyx.io/js-third-age/">The Third Age of JavaScript</a>
+   <p><i>A bunch of things are moving in JavaScript - it is quite feasible that the JS of 10 years from now will look totally unrecognizable.</i></p>
+   <p class="date">May 20 2020</p>
+   </div>
+   <div class="article">
+    <img class="img" src="https://mediaproxy.salon.com/width/1200/https://media.salon.com/2021/04/artificial-intelligence-robot-0427211.jpg">
+   <a href="https://a16z.com/2020/02/16/the-new-business-of-ai-and-how-its-different-from-traditional-software/">The New Business of AI (and How It’s Different From Traditional Software)</a>
+   <p><i>
+    At a technical level, artificial intelligence seems to be the future of software. AI is showing remarkable progress on a range of difficult computer science problems, and the job of software developers – who now work with data as much as source code – is changing fundamentally in the process.</i>
+   </p>
+   <p>by Martin Casado and Matt Bornstein</p>
+  </div>
+   </div>
+   <div class="footer">
+    <span><img  id="insta" style="width:4%"src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></span>
+   <span class="link"> <a style="color:white ;font-size:15px ;font-family:'Source Sans Pro'" href="https://www.instagram.com/ieenc_manipal/?hl=en">@ieenc_manipal</a></span>
+   <span  class="dev">developer : Sathi Eswari</span>
+  </div>
+</body>
+</html>
